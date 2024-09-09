@@ -1088,12 +1088,12 @@ GameObject:
   - component: {fileID: 5204273455549628430}
   - component: {fileID: 2842939590312880093}
   - component: {fileID: 3178496165126466390}
-  - component: {fileID: 8974659994659169652}
   - component: {fileID: 2115315742534120185}
-  - component: {fileID: 2117860473809599225}
+  - component: {fileID: 7773008983423528080}
+  - component: {fileID: 6079931990283222580}
   m_Layer: 0
   m_Name: Animal_Horse_Black
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1153,20 +1153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &8974659994659169652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4630245393349189259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32936d879e3dffd46a0c45832925c9f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: -50
-  lowerBound: 43
 --- !u!65 &2115315742534120185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1188,7 +1174,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.936771, y: 34.225693, z: 30}
   m_Center: {x: 0.08803725, y: 16.92997, z: 0}
---- !u!114 &2117860473809599225
+--- !u!114 &7773008983423528080
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1197,7 +1183,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 4630245393349189259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27be7858a37e4fc47a9c9fb5b622579f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6079931990283222580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4630245393349189259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4767435301499387733

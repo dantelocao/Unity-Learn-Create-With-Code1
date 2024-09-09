@@ -775,12 +775,12 @@ GameObject:
   - component: {fileID: 2593108812584330719}
   - component: {fileID: 9196081734637419921}
   - component: {fileID: 1849648637514396565}
-  - component: {fileID: 5264859839742091111}
   - component: {fileID: 2450469154473274925}
-  - component: {fileID: -1486685872556791119}
+  - component: {fileID: 3296738671284654435}
+  - component: {fileID: 8295979714132921428}
   m_Layer: 0
   m_Name: Animal_Cow_White
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -835,20 +835,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &5264859839742091111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3789131131902667453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32936d879e3dffd46a0c45832925c9f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: -50
-  lowerBound: 43
 --- !u!65 &2450469154473274925
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -870,7 +856,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 13.52, y: 27.991432, z: 41.67}
   m_Center: {x: 0, y: 14.524284, z: -1}
---- !u!114 &-1486685872556791119
+--- !u!114 &3296738671284654435
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -879,7 +865,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 3789131131902667453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27be7858a37e4fc47a9c9fb5b622579f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8295979714132921428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3789131131902667453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3813950543638314771

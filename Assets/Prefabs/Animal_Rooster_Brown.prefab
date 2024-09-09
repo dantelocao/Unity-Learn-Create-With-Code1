@@ -743,12 +743,12 @@ GameObject:
   - component: {fileID: 6012089121268174597}
   - component: {fileID: 7366382089648866029}
   - component: {fileID: 9209331100498223884}
-  - component: {fileID: 8288056039056942825}
   - component: {fileID: 9133513542168160971}
-  - component: {fileID: 6902713626755549329}
+  - component: {fileID: 4947195773280500166}
+  - component: {fileID: -7965379239528604194}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
-  m_TagString: Untagged
+  m_TagString: Dog
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -810,20 +810,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!114 &8288056039056942825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4615387066448668721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32936d879e3dffd46a0c45832925c9f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: -50
-  lowerBound: 43
 --- !u!65 &9133513542168160971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -845,7 +831,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.03318, y: 16.789726, z: 1}
   m_Center: {x: -0.023288727, y: 8.220905, z: 0}
---- !u!114 &6902713626755549329
+--- !u!114 &4947195773280500166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -854,7 +840,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 4615387066448668721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27be7858a37e4fc47a9c9fb5b622579f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7965379239528604194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615387066448668721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4640623212829132382
