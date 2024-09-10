@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using TMPro;
 
 public class CarController : MonoBehaviour
 {
+    [SerializeField] private float speed;
     [SerializeField] private float horsePower;
     [SerializeField] private float turnSpeed = 45.0f;
     private float horizontalInput;
     private float forwardInput;
     private Rigidbody carRb;
     [SerializeField] private GameObject centerOfMass;
+    [SerializeField] private TextMeshProUGUI speedMeterText; 
 
     private void Start()
     {
@@ -20,6 +23,10 @@ public class CarController : MonoBehaviour
 
     void FixedUpdate()
     {
+        speed = Mathf.Round(carRb.velocity.magnitude * 3.6f); //3.6 for kph
+        speedMeterText.SetText("Speed: " + speed + "Km/h");
+
+
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
         // move the car forward based on vertical input
